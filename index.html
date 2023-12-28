@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Momentum App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a617d62171.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <br />
+  <br />
+  <main id="centercontent">
+    <div id="currentTime"></div>
+    <div id="indexname">
+      <label for="nameInput"></label>
+      <input type="text" id="nameInput" placeholder="place your name and hit enter">
+      <button id="setNameButton" hidden>Set Name</button>
+    </div>
+    <div id="greetingdiv">
+      <div id="greeting"></div>
+      <button id="editname" class="editbutton"><i class="fa-solid fa-ellipsis"></i></button>
+      <div id="editnamediv">
+        <button id="edityourname">Edit Name</button>
+      </div>
+    </div>
+    <div>
+      <label for="focusInput"></label><br />
+      <input type="text" id="focusInput" placeholder="what is your main focus for today? ">
+      <button id="setFocusButton" hidden>Set Focus</button>
+      <div id="focuslistdiv">
+        <ul id="focusList"></ul><button id="editfocus" class="editbutton"><i class="fa-solid fa-ellipsis"></i></button>
+        <button id="changefocus" class="changefocus">Edit Focus</button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div id="todo">
+      <button id="todobutton">Todo</button>
+      <div id="todocontainer">
+        <label for="todoInput"></label>
+        <input type="text" id="todoInput" placeholder="add todo">
+        <button id="addTodoButton" hidden>Add</button>
+        <ul id="todoList"></ul>
+      </div>
+    </div>
+    <div id="quotecontainer">
+      <button id="addQuoteButton">Quote</button>
+      <div id="quoteContent">
+        <label for="newQuoteInput"></label><br />
+        <input type="text" id="newQuoteInput" placeholder="add a new quote">
+      </div>
+    </div>
+    <div id="randomQuote"></div>
+    <ul id="quoteList"></ul>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
